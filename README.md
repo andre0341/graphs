@@ -1,13 +1,14 @@
 # Project
-Graphs. Experimenting with Python Graphs.
-A repository to see how some Python graphs work. 
+Automating the creation of a report from an input file (xls generated from a form). Creating graphs and building the template from scratch.
+Graphs: Experimenting with Python Graphs. Radar/Spider, Lollipop, FacetGrid, DotPlot. 
+A Python repository to see how some of these graphs work and automatically create reports.
 
 ## Getting Started
 ### Prerequisites
 Before using the files, make sure you have installed the latest version of Pandas, PlotLib, Numpy and Seaborn.
 Suggested but not mandadtory the usage of Python 3.8+.
 
-## Installing
+### Installing
 To install Pandas from terminal 
 > pip install pandas
 
@@ -20,7 +21,7 @@ To install numpy
 To install seaborn
 > pip install seaborn
 
-## Instructions
+### Instructions
 The main is concat_file_creation_scripts, that calls sequentially a series of scripts to manipulate an input and create graphs and a docx
 file automatically. 
 
