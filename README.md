@@ -1,6 +1,6 @@
-# graphs
-Experimenting with Python Graphs
+# Experimenting with Python Graphs
 
+# Instructions
 The main is concat_file_creation_scripts, that calls sequentially a series of scripts to manipulate an input and create graphs and a docx
 file automatically. 
 
@@ -9,11 +9,11 @@ Function splitdatafromxls requires no input, searches for an xml file (PMI-netwo
 header, row 1 is the first line with useful data).
 splitdatafromxls retuns a dictionary with data extracted.
 
-# Strategia Produzione
+Strategia Produzione
 createlollipopgraph receives requires a dictionary with data as input, takes some values and create a lollipop graph. saves the graph
 as png for later usage and returns nothing.
 
-# Ricerca e Innovazione
+Ricerca e Innovazione
 createspidergraph() and createradargraph() both require the same dictionary as input, extract some values, save the graph as png (one 
 with tecnologie 4.0 and ricerca&innovazione.
 
@@ -27,3 +27,6 @@ avoid 0 to have prettier graph
 
 createdoctemplate creates a new docx with the name as the company (extracted from the xls file) and uploades the images created in
 previous steps.
+
+# Next Steps
+Simplify and clean the file
