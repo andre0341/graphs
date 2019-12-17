@@ -10,11 +10,13 @@ Suggested but not mandadtory the usage of Python 3.8+.
 ## Installing
 To install Pandas from terminal 
 > pip install pandas
+
 To install matplotlib
 > pip install matplotlib
 
 To install numpy
 > pip install numpy
+
 To install seaborn
 > pip install seaborn
 
@@ -49,10 +51,11 @@ createdoctemplate creates a new docx with the name as the company (extracted fro
 previous steps.
 
 ### Built With
-*[Pandas](https://pandas.pydata.org/)
-*[MatPlotLib](https://matplotlib.org/)
-*[Seaborn](https://seaborn.pydata.org/)
-*[Numpy](https://numpy.org/)
+* [Pandas](https://pandas.pydata.org/)
+* [MatPlotLib](https://matplotlib.org/)
+* [Seaborn](https://seaborn.pydata.org/)
+* [Numpy](https://numpy.org/) 
+* [Pip](https://pypi.org/project/pip/) Package Manager
 
 ### Contributors
 Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us
