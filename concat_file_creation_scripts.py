@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
 # !/usr/bin/env
 # !/Library/Frameworks/Python.framework/Versions/3.8/bin/python3
-from split_data_from_xls import splitdatafromxls
-from create_lollipop_graph import createlollipopgraph
-from create_spider_graph import createspidergraph
-from create_radar_graph import createradargraph
-from create_doc_template import createdoctemplate
-from create_generic_radar_graph import creategenericradargraph
+import sys
+#print(sys.path)
+from modules.split_data_from_xls import splitdatafromxls
+from modules.create_lollipop_graph import createlollipopgraph
+from modules.create_spider_graph import createspidergraph
+from modules.create_radar_graph import createradargraph
+from modules.create_doc_template import createdoctemplate
+from modules.create_generic_radar_graph import creategenericradargraph
 
 d = splitdatafromxls()
 createlollipopgraph(d)

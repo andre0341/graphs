@@ -1,17 +1,20 @@
 # -*- coding: utf-8 -*-
 # !/usr/bin/env
 # !/Library/Frameworks/Python.framework/Versions/3.8/bin/python3
-import xlrd
+import xlrd, sys, os
 from docx import Document
 from docx.shared import Inches
+
 
 def splitdatafromxls():
     print('Opening file..')
       # Give the location of the xls file 
-    # loc = ("/Users/andre/Google Drive/Projects/Python/Useful Python Stuff/word and docs/PMI-network-data.xlsx")
-    loc = ('PMI-network-data.xlsx')
+    cur_path = os.path.dirname(__file__)
+    rel_path = os.path.relpath('datasource/PMI-network-data.xlsx')
+    #loc = ("/Users/andre/Google Drive/Projects/Python/Useful Python Stuff/word and docs/PMI-network-data.xlsx")
+    #loc = ('PMI-network-data.xlsx')
 
-    wb = xlrd.open_workbook(loc)
+    wb = xlrd.open_workbook(rel_path)
     sheet = wb.sheet_by_index(0)
     sheet.cell_value(0, 0)
 
